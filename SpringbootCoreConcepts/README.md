@@ -1,7 +1,7 @@
 Project is created to learn and demonstrate basics of Spring Framework - Spring core features, Spring MVC, Spring DSL, JPA, JPQL, Spring with REST API, Pagination, Spring Profiles, lombok.
 
-* To learn the basics of Spring Framework - Dependency Injection, IOC Container, Application Context and Bean Factory.
-* To use Spring Annotations - @Autowired, @Component, @Service, @Repository, @Configuration, @Primary....
+- To learn the basics of Spring Framework - Dependency Injection, IOC Container, Application Context and Bean Factory.
+- To use Spring Annotations - @Autowired, @Component, @Service, @Repository, @Configuration, etc...
 
 springdemo
 * springdemo project for initial configuration setup.

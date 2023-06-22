@@ -1,0 +1,24 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 
+        	-info
+        	-health
+server:
+  port: 9090
+  
+spring:
+  banner:
+    location: classpath:banner-uat.txt
+    
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: Root@234
+    url: jdbc:mysql://localhost:3306/dbuat
+    username: root
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
